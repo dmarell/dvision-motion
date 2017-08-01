@@ -35,8 +35,8 @@ spec:
           value: PLACEHOLDER_DEPLOY_TIMESTAMP
         resources:
           limits:
-            memory: "500Mi"
-            cpu: "200m"
+            memory: "300Mi"
+            cpu: "100m"
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

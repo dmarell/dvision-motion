@@ -13,4 +13,4 @@ RUN echo "deb http://ppa.launchpad.net/ubuntu-toolchain-r/test/ubuntu trusty mai
     rm -rf /var/cache/oracle-jdk*
 
 EXPOSE 8080
-CMD ["java", "-Dspring.profiles.active=prod", "-jar", "dvision-motion.jar" ]
+CMD ["java", "-Xmx256m", "-Dspring.profiles.active=prod", "-jar", "dvision-motion.jar" ]
