@@ -35,7 +35,7 @@ spec:
           value: PLACEHOLDER_DEPLOY_TIMESTAMP
         resources:
           limits:
-            memory: "300Mi"
+            memory: "400Mi"
             cpu: "100m"
         imagePullPolicy: Always
         ports:
